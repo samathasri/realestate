@@ -1,0 +1,122 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+   .bg{
+     background-image: url('ww.jpg');
+     background-size: cover;
+     
+     height: 200px;
+   }
+  
+ 
+  nav {
+    /* sticky or fixed are fine */
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    background-color: #28282B;
+    
+    
+
+  }
+  
+
+.brand {
+    color: white;
+    font :44px;
+    padding: 0px;
+    margin:0px;
+
+    cursor: pointer;
+    position: fixed;
+
+}
+li{
+    display: inline-block;
+    color: white;
+    
+    padding: 18px;
+    margin-left: 140px;
+    font:20px;
+    cursor: pointer;
+    justify-content: center;
+    
+    
+    
+}
+a{
+  color: white;
+
+}
+.div
+{
+  margin: 0;
+  padding: 0;
+  background-color: #28282B;
+  color: white;
+  
+}  
+.bgcolor{
+  background-color: #28282B;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  width: 90%;
+  padding: 40px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box{
+  width: 250px;
+  margin: 0 10px;
+  box-shadow: 0 0 20px 2px rgba(0,0,0, .1);
+  transition: 1s;
+}
+.box img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+
+}
+.box:hover{
+  transform:scale(1.3);
+  z-index: 2;
+
+}
+
+.container1{
+  width: 90%;
+  padding: 40px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box1{
+  width: 250px;
+  margin: 0 10px;
+  box-shadow: 0 0 20px 2px rgba(0,0,0, .1);
+  transition: 1s;
+}
+.box1 img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+
+}
+.box1:hover{
+  transform:scale(1.3);
+  z-index: 2;
+
+}
+h1,h4{
+  text-align: center;
+}
